@@ -1,0 +1,28 @@
+.ds-social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ds-social li {
+  margin-left: 12px;
+}
+.ds-social li:first-child {
+  margin-left: 0;
+}
+.ds-social li a {
+  border-radius: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  background-color: #f26464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+.ds-social li a:hover {
+  background-color: #000;
+  color: #fff;
+}

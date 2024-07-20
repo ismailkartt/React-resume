@@ -1,13 +1,86 @@
+html {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
 body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  color: #373737;
+  font-size: 14px;
+}
+a,
+a:hover,
+a:focus,
+i,
+input,
+button,
+input:focus,
+.transition {
+  text-decoration: none;
+  outline: none;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: ease;
+  box-shadow: none;
+}
+a {
+  color: #000;
+}
+iframe {
+  border: 0;
+  outline: none;
+}
+::-moz-selection {
+  background: #000;
+  text-shadow: none;
+  color: #fff;
+}
+::selection {
+  background: #000;
+  text-shadow: none;
+  color: #fff;
+}
+img {
+  max-width: 100%;
+  border: none;
+  outline: none;
+  height: auto;
+}
+input,
+textarea {
+  border-radius: 0;
+  resize: none;
+}
+ul {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: transparent;
+  background-image: none;
+  color: #000;
+}
+/* 1.2 Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+}
+figure {
+  margin: 0;
+}
+svg,
+img {
+  max-width: 100%;
+  height: auto;
 }
